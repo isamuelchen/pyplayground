@@ -11,7 +11,7 @@ quant=int(input())
 cost=price*quant
 print("receipt")
 print("-------------------------")
-print("item","            ","$",cloth)
+print("item","              ",cloth)
 print ("cost","            ","$",price)
 print("quantity","        ","$",quant,)
 print("-------------------------")
@@ -20,7 +20,7 @@ print("subtotal","        ","$",cost)
 print("HST","             ","$",HST)
 total=cost*TAX
 print
-print("total","           ","$"("{:.2f}" .format(total, 2)))
+print("total","           ","$","{total:.2f}".format(total= 2))
 print("thanks for using this program!")
 
 
