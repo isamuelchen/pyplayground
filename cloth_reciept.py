@@ -22,8 +22,3 @@ total=cost*TAX
 print
 print("total","           ","$","{total:.2f}".format(total= 2))
 print("thanks for using this program!")
-
-
-
-
-
