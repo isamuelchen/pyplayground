@@ -7,7 +7,7 @@ def window(stdscr):
   stdscr.addstr(1, 0, str(sw))
   
   y= sh / 2
-  x= sw / 2
+  x= sw / 2 - 2.5
   stdscr .addstr(int(y), int(x), "hello")
   while True:
     #getch will get users
